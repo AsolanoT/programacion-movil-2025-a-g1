@@ -1,6 +1,6 @@
 # 📌 Guía Básica de Comandos Git
 
-## 📝 Introducción
+##  Introducción
 Git es un sistema de control de versiones distribuido que permite rastrear cambios en el código y colaborar con otros desarrolladores. GitHub es una plataforma basada en Git que permite alojar repositorios y gestionar proyectos de manera eficiente.
 
 ---
