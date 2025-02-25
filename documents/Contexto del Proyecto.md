@@ -10,6 +10,10 @@ La aplicación permitirá que los turistas **escaneen códigos QR** en sitios es
 
 ---
 
+## Enlace para ingresar al Trello
+
+- https://trello.com/invite/b/67b7e2d5d9044bc5b1f023ce/ATTI961a36c0352b8bf4312da011b9abc8c2E5387F35/turismoyentretenimiento
+
 ## Historias de Usuario (HU)
 
 ### **Módulo: Guía de Turismo Interactiva**
