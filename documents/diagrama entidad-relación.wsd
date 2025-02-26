@@ -1,0 +1,97 @@
+@startuml
+
+entity Usuario {
+    +id_usuario: INT [PK]
+    --
+    nombre: VARCHAR
+    correo: VARCHAR
+    contraseña: VARCHAR
+    rol: ENUM('Turista', 'Anfitrion')
+}
+
+entity Sitio_Turistico {
+    +id_sitio: INT [PK]
+    --
+    nombre: VARCHAR
+    descripcion: TEXT
+    ubicacion: VARCHAR
+}
+
+entity QR_Code {
+    +id_qr: INT [PK]
+    --
+    codigo: VARCHAR
+    id_sitio: INT [FK] 
+}
+
+entity Experiencia {
+    +id_experiencia: INT [PK]
+    --
+    titulo: VARCHAR
+    descripcion: TEXT
+    id_anfitrion: INT [FK]
+    id_sitio: INT [FK]  
+    precio: DECIMAL
+    cupos_disponibles: INT
+}
+
+entity Reserva {
+    +id_reserva: INT [PK]
+    --
+    id_usuario: INT [FK]
+    id_experiencia: INT [FK]
+    id_sitio: INT [FK]  
+    fecha_reserva: DATETIME
+    estado: ENUM('Pendiente', 'Confirmada', 'Cancelada')
+}
+
+entity Pago {
+    +id_pago: INT [PK]
+    --
+    id_reserva: INT [FK]
+    metodo_pago: ENUM('Tarjeta', 'PayPal', 'Efectivo')
+    monto: DECIMAL
+    estado: ENUM('Pendiente', 'Completado', 'Fallido')
+}
+
+entity Auditoria_Usuarios {
+    +id_auditoria: INT [PK]
+    --
+    id_usuario: INT [FK]
+    accion: VARCHAR
+    fecha: DATETIME
+}
+
+entity Auditoria_Reservas {
+    +id_auditoria: INT [PK]
+    --
+    id_reserva: INT [FK]
+    accion: VARCHAR
+    fecha: DATETIME
+}
+
+Usuario ||--o{ Reserva
+Usuario ||--o{ Experiencia : "Crea"
+Sitio_Turistico ||--o{ QR_Code : "Tiene"
+Sitio_Turistico ||--o{ Experiencia : "Ubicado en"
+Sitio_Turistico ||--o{ Reserva : "Se puede reservar"
+Reserva ||--|{ Pago
+Reserva ||--o{ Auditoria_Reservas
+Usuario ||--o{ Auditoria_Usuarios
+
+' Procedimientos almacenados básicos
+note right of Usuario
+CREATE PROCEDURE InsertarUsuario (IN p_nombre VARCHAR, IN p_correo VARCHAR, IN p_contraseña VARCHAR, IN p_rol ENUM('Turista', 'Anfitrion'))
+BEGIN
+    INSERT INTO Usuario (nombre, correo, contraseña, rol) VALUES (p_nombre, p_correo, p_contraseña, p_rol);
+END;
+end note
+
+note right of Reserva
+CREATE PROCEDURE ConsultarReservasPorUsuario (IN p_id_usuario INT)
+BEGIN
+    SELECT * FROM Reserva WHERE id_usuario = p_id_usuario;
+END;
+end note
+
+@enduml
