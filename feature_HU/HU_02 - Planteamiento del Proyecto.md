@@ -1,27 +1,63 @@
-# **HU_02 - Planteamiento del Proyecto**  
+# **HU_02 - Definición del Diseño y Estilos de la Aplicación**
 
-## **Descripción**  
-Tras identificar las problemáticas operativas de *Explora Neiva*, es necesario definir el alcance, objetivos y funcionalidades clave del proyecto. Se establecerán los módulos principales de la aplicación, asegurando que cumplan con las necesidades del negocio y mejoren la experiencia del usuario. Se determinará el uso de conexión a internet y la viabilidad futura de integrar realidad aumentada.  
+## **Descripción:**
+Como equipo de desarrollo, necesitamos establecer la identidad visual de la aplicación de *Explora Neiva*, definiendo los **colores, tipografía, botones y otros elementos de diseño** para garantizar una experiencia de usuario atractiva y coherente con la marca. Además, se deben definir los **mensajes de notificación** para proporcionar retroalimentación clara sobre las acciones realizadas.
 
-## **Actores Involucrados**  
-- **Sofía y Andrés** (Propietarios de *Explora Neiva*)  
-- **Turistas** (Usuarios finales de la aplicación)  
-- **Anfitriones** (Locales que ofrecen experiencias)  
-- **Equipo de Desarrollo** (Encargado de la implementación de la aplicación)  
+## **Criterios de Aceptación:**
+✔ Se define una **paleta de colores** principal y secundaria basada en la identidad visual de *Explora Neiva*.  
+✔ Se elige la **tipografía** para títulos, subtítulos y textos generales, asegurando legibilidad.  
+✔ Se diseñan los **estilos de botones, barras de navegación y otros componentes interactivos**.  
+✔ Se establecen los **mensajes de notificación** para acciones clave (*éxito, error, advertencia, información*).  
+✔ Se crea una **guía visual** con ejemplos de los elementos definidos.  
+✔ Se valida que el diseño sea **accesible y fácil de usar en dispositivos móviles y web**.  
 
-## **Alcance**  
-Esta historia de usuario cubre la **definición del proyecto**, estableciendo sus módulos principales:  
-1. **Guía de Turismo Interactiva** (Uso de códigos QR para acceder a información turística con audio y video).  
-2. **Plataforma de Reservas para Experiencias Locales** (Conexión entre turistas y anfitriones para reservar actividades).  
-3. **Sistema de Pagos y Calificaciones** (Facilitar transacciones y permitir a los turistas evaluar experiencias).  
+---
 
-No se incluirá aún la integración de realidad aumentada, ya que se plantea como una **funcionalidad a futuro** cuando la empresa crezca.  
+## **Paleta de Colores Seleccionada**  
+![Paleta de Colores](image.png)
 
-## **Criterios de Aceptación**  
-✅ Se ha definido el propósito del proyecto y su alineación con los objetivos de *Explora Neiva*.  
-✅ Se han establecido los módulos clave de la aplicación y su funcionalidad principal.  
-✅ Se ha confirmado que la aplicación requerirá conexión a internet.  
-✅ Se ha documentado la viabilidad de integrar realidad aumentada en una fase futura.  
+| **Elemento**                  | **Código HEX** | **Descripción**            |
+|--------------------------------|--------------|----------------------------|
+| Fondo Principal               | `#05161A`    | Azul Oscuro Profundo       |
+| Barras de Navegación          | `#072E33`    | Verde Oscuro               |
+| Textos Principales            | `#C7C7C5`    | Gris Claro                 |
+| Botones Primarios             | `#0F969C`    | Azul Turquesa              |
+| Botones Secundarios           | `#6DA5C0`    | Celeste Claro              |
+| Mensajes de Notificación      | `#294D61`    | Azul Medio                 |
 
-## **Dependencias**  
-- **HU_01 - Diagnóstico del Negocio y Necesidad de Digitalización**  
+---
+
+## **Task (Distribución por integrante - Fase de Diseño con Notificaciones)**
+
+### **1️⃣ Definición de la paleta de colores y validación de accesibilidad (Integrante 1)**
+- Implementar la **paleta de colores** en el diseño base de la aplicación.
+- Asegurar que los colores sean **accesibles** y tengan buen contraste.
+- Definir el uso de cada color en los elementos de la interfaz.
+
+### **2️⃣ Selección de tipografía y tamaños de texto (Integrante 2)**
+- Elegir una fuente adecuada para **títulos, subtítulos y textos generales**.
+- Establecer **tamaños y pesos** adecuados para una mejor jerarquía visual.
+- Probar la **legibilidad** en diferentes resoluciones y dispositivos.
+
+### **3️⃣ Diseño de botones, barras de navegación y mensajes de notificación (Integrante 3)**
+- Definir los **estilos de botones** (*colores, bordes, sombras, estados hover/active*).
+- Diseñar **barras de navegación** y otros elementos interactivos.
+- Establecer mensajes de notificación estándar para diferentes tipos de acción:
+  - ✅ **Éxito**: Acción completada con éxito. (`#0F969C`)
+  - ⚠ **Advertencia**: Algo requiere atención del usuario. (`#6DA5C0`)
+  - ❌ **Error**: Ocurrió un problema con la acción. (`#294D61`)
+  - ℹ **Información**: Mensajes que guían al usuario. (`#C7C7C5`)
+
+### **4️⃣ Creación de la guía visual y validación final (Integrante 4)**
+- Unificar los elementos diseñados en una **mini guía visual**.
+- Presentar **ejemplos de uso** con capturas o prototipos rápidos.
+- Revisar y validar con el equipo para realizar **ajustes finales**.
+
+---
+
+## **Para Trello:**
+📌 **Lista:** "Sprint Actual" (o "Diseño UI")  
+📌 **Tarjeta:** "Definición del Diseño, Botones y Notificaciones"  
+📌 **Checklist con tareas asignadas**  
+📌 **Etiquetas:** *Diseño, UI/UX, Accesibilidad, Notificaciones*  
+📌 **Fecha estimada de cierre alineada con el sprint**  
