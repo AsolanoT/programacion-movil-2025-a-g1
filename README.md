@@ -44,3 +44,6 @@ Git es un sistema de control de versiones distribuido que permite rastrear cambi
 | `git reflog` | Muestra el historial de cambios en la referencia de HEAD. |
 | `git blame <archivo>` | Muestra quién hizo cada cambio en un archivo. |
 
+## **Enlaces Relevantes**
+- **Mockup del Proyecto edit:** [Figma - Enlace para editar proyecto](https://www.figma.com/design/Qg6zyEpXDPVUEkh98hkDVG/Untitled?node-id=0-1&m=dev&t=BbX5qdvBrOmgHYos-1)}
+- **Repositorio Jesus Ariel:** [Git Hub - Enlace para Visualizar repositorio de clase](https://github.com/code-corhuila/programacion-movil-2025-a-g1)
