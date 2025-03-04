@@ -1,0 +1,86 @@
+@startuml
+
+entity Pasajero {
+    +id_pasajero: INT
+    --
+    nombre: STRING
+    apellido: STRING
+    email: STRING
+    teléfono: STRING
+    documento_identidad: STRING
+}
+
+entity Vuelo {
+    +id_vuelo: INT
+    --
+    número_vuelo: STRING
+    aerolínea: STRING
+    origen: STRING
+    destino: STRING
+    fecha_salida: DATE
+    fecha_llegada: DATE
+    id_aeronave: INT
+    estado: STRING
+}
+
+entity Reserva {
+    +id_reserva: INT
+    --
+    id_pasajero: INT
+    id_vuelo: INT
+    asiento: STRING
+    estado_reserva: STRING
+}
+
+entity Tripulación {
+    +id_tripulante: INT
+    --
+    nombre: STRING
+    apellido: STRING
+    rol: STRING
+    id_vuelo: INT
+}
+
+entity Aeropuerto {
+    +id_aeropuerto: INT
+    --
+    nombre: STRING
+    ubicación: STRING
+    código_iata: STRING
+}
+
+entity Notificación {
+    +id_notificación: INT
+    --
+    id_pasajero: INT
+    mensaje: STRING
+    fecha_hora: DATETIME
+    tipo_notificación: STRING
+}
+
+entity Aeronave {
+    +id_aeronave: INT
+    --
+    modelo: STRING
+    capacidad: INT
+    matrícula: STRING
+}
+
+entity Checkin {
+    +id_checkin: INT
+    --
+    id_pasajero: INT
+    id_vuelo: INT
+    estado_checkin: STRING
+    tarjeta_embarque: STRING
+}
+
+Pasajero ||--o{ Reserva : realiza
+Vuelo ||--o{ Reserva : tiene
+Vuelo ||--o{ Aeronave : usa
+Vuelo ||--o{ Tripulación : asigna
+Pasajero ||--o{ Notificación : recibe
+Pasajero ||--o{ Checkin : realiza
+Aeropuerto ||--o{ Vuelo : opera
+
+@enduml
