@@ -30,6 +30,7 @@ entity Reserva {
     id_vuelo: INT
     asiento: STRING
     estado_reserva: STRING
+    fecha_reserva: DATE
 }
 
 entity Tripulación {
@@ -75,6 +76,33 @@ entity Checkin {
     tarjeta_embarque: STRING
 }
 
+entity Pago {
+    +id_pago: INT
+    --
+    id_reserva: INT
+    monto: DECIMAL
+    metodo_pago: STRING
+    estado_pago: STRING
+    fecha_pago: DATE
+}
+
+entity Equipaje {
+    +id_equipaje: INT
+    --
+    id_reserva: INT
+    tipo: STRING
+    peso: DECIMAL
+    cantidad: INT
+}
+
+entity Pasabordo {
+    +id_pasabordo: INT
+    --
+    id_reserva: INT
+    codigo_qr: STRING
+    fecha_generacion: DATE
+}
+
 Pasajero ||--o{ Reserva : realiza
 Vuelo ||--o{ Reserva : tiene
 Vuelo ||--o{ Aeronave : usa
@@ -82,5 +110,8 @@ Vuelo ||--o{ Tripulación : asigna
 Pasajero ||--o{ Notificación : recibe
 Pasajero ||--o{ Checkin : realiza
 Aeropuerto ||--o{ Vuelo : opera
+Reserva ||--|| Pago : genera
+Reserva ||--o{ Equipaje : incluye
+Reserva ||--|| Pasabordo : emite
 
 @enduml
