@@ -1,0 +1,7 @@
+🔗 Enlace público de Figma con el diseño de HU3.
+
+- https://www.figma.com/design/v9z2KcZmQbG7ZBErG5TmEF/Parcial-corte-1-moviles?node-id=0-1&t=jEVtQ2HHN7o15Lui-1
+
+🔗 Enlace del repositorio en Git.
+
+- https://github.com/AsolanoT/programacion-movil-2025-a-g1.git
