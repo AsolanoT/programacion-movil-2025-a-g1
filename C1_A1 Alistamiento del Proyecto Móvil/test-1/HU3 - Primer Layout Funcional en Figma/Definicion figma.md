@@ -58,5 +58,10 @@ El objetivo es **validar la usabilidad antes del desarrollo**, permitiendo **aju
 
 ---
 
+### Diseño de figma
+
+![Modelo Mockup](01_Figmas.png)
+
+
 ## **📌 Conclusión**  
 Esta **HU03** garantiza que el equipo tenga un **prototipo funcional en Figma**, alineado con la **HU02** y optimizado para pruebas tempranas de usabilidad. Esto permitirá validar la navegación y mejorar la experiencia del usuario antes de iniciar la fase de desarrollo.  
