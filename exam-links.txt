@@ -4,7 +4,7 @@
 
 🔗 Enlace público de Figma con el diseño de HU3.
 
-- https://www.figma.com/design/CodbC0X00koF8aQCtG34my/exam-c1_Aplicaci%C3%B3n-M%C3%B3vil-para-la-Gesti%C3%B3n-y-Control-de-Vuelos?node-id=0-1&t=OIDbFaKnBpyZgXhU-1
+- https://github.com/AsolanoT/programacion-movil-2025-a-g1/tree/feature/exam-c1
 
 🔗 Enlace del repositorio en Git.
 

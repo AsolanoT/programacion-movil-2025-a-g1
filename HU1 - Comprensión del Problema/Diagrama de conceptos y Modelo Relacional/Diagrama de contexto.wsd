@@ -1,0 +1,31 @@
+@startuml
+
+start
+:Pasajero intenta verificar información del vuelo;
+if (Información disponible en tiempo real?) then (No)
+  :El pasajero recibe información desactualizada por correo o SMS;
+  :No puede verificar cambios inmediatos;
+else (Sí)
+  :El pasajero recibe actualización inmediata;
+endif
+
+:Personal del aeropuerto gestiona puertas de embarque;
+if (Notificación a pasajeros es eficiente?) then (No)
+  :Los pasajeros llegan a la puerta incorrecta;
+  :Retrasos y confusión en el embarque;
+else (Sí)
+  :Flujo de embarque sin problemas;
+endif
+
+:Tripulación necesita actualizaciones sobre cambios en itinerarios;
+if (Comunicación con personal de tierra es rápida?) then (No)
+  :Dificultades en coordinación de vuelos;
+  :Respuesta tardía a imprevistos;
+else (Sí)
+  :Operación eficiente y sin retrasos;
+endif
+
+:Solución -> Aplicación móvil con información centralizada y en tiempo real;
+stop
+
+@enduml
