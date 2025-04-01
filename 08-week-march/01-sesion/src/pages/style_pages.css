@@ -1,0 +1,128 @@
+/* pages/Cliente.css */
+
+/* Estilos para el contenedor principal */
+.cliente-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para el título del formulario */
+  .cliente-title {
+    text-align: center;
+    color: var(--ion-color-primary);
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  /* Estilos para los campos del formulario */
+  .cliente-field {
+    margin-bottom: 20px;
+    --background: var(--ion-color-light);
+    --border-radius: 8px;
+    --padding-start: 10px;
+  }
+  
+  /* Estilos para las etiquetas de los campos */
+  .cliente-label {
+    color: var(--ion-color-dark);
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Estilos para el botón de submit */
+  .cliente-submit-button {
+    --border-radius: 8px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .cliente-container {
+      padding: 15px;
+    }
+    
+    .cliente-title {
+      font-size: 1.5rem;
+    }
+  }
+
+  /* pages/Estudiante.css */
+
+/* Contenedor principal */
+.estudiante-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--ion-color-light-shade);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Título del formulario */
+.estudiante-title {
+  text-align: center;
+  color: var(--ion-color-secondary);
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Campos del formulario */
+.estudiante-field {
+  margin-bottom: 20px;
+  --background: white;
+  --border-radius: 8px;
+  --padding-start: 12px;
+  --highlight-color-focused: var(--ion-color-secondary);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Etiquetas de los campos */
+.estudiante-label {
+  color: var(--ion-color-secondary-shade);
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+  font-size: 0.9rem;
+}
+
+/* Botón de submit */
+.estudiante-submit-button {
+  --border-radius: 8px;
+  --background: var(--ion-color-secondary);
+  --background-activated: var(--ion-color-secondary-shade);
+  margin-top: 25px;
+  font-weight: bold;
+  height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Efecto hover para el botón */
+.estudiante-submit-button:hover {
+  --background: var(--ion-color-secondary-tint);
+}
+
+/* Adaptación para móviles */
+@media (max-width: 768px) {
+  .estudiante-container {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  
+  .estudiante-title {
+    font-size: 1.4rem;
+  }
+  
+  .estudiante-field {
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,16 @@
+.form-card {
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-card ion-card-header {
+    background: var(--ion-color-primary);
+    color: white;
+    text-align: center;
+  }
+  
+  .form-card ion-card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }

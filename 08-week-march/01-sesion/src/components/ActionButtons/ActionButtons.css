@@ -1,0 +1,78 @@
+/* Contenedor principal */
+.buttons-container {
+  margin: 30px auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Grid personalizado */
+.custom-buttons-grid {
+  padding: 0;
+}
+
+/* Estilos base para todos los botones */
+.custom-button {
+  border-radius: 20px !important;
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+  height: 75px !important;
+  min-width: 140px !important;
+  font-size: 0.8rem !important;
+  font-weight: 700 !important;
+  margin: 8px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.3s ease !important;
+  text-transform: uppercase !important;
+  color: white !important;
+  border: none !important;
+}
+
+.custom-button:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Colores específicos para cada botón */
+.custom-button-add {
+  background-color: #2ecc71 !important;
+}
+
+.custom-button-add:hover {
+  background-color: #27ae60 !important;
+}
+
+.custom-button-modify {
+  background-color: #3498db !important;
+}
+
+.custom-button-modify:hover {
+  background-color: #2980b9 !important;
+}
+
+.custom-button-delete {
+  background-color: #e74c3c !important;
+}
+
+.custom-button-delete:hover {
+  background-color: #c0392b !important;
+}
+
+.custom-button-query {
+  background-color: #f39c12 !important;
+}
+
+.custom-button-query:hover {
+  background-color: #e67e22 !important;
+}
+
+.button-row {
+  justify-content: center;
+  gap: 100px; /* Espacio entre los botones */
+}
+
+.button-row {
+  justify-content: center;
+  gap: 30px; /* Espacio entre los botones dentro del mismo row */
+  margin-bottom: 30px; /* Espacio entre los rows */
+}
+
