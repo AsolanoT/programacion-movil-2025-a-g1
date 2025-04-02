@@ -1,2 +1,11 @@
 Enlace al repositorio GIT HUB:
 
+https://github.com/AsolanoT/programacion-movil-2025-a-g1/tree/feature/activity/08-week-march/Taller%20Explorando%20Componentes%20en%20Ionic
+
+REPOSITORIO MAIN:
+
+https://github.com/AsolanoT/programacion-movil-2025-a-g1.git
+
+Link del video explicativo IONIC REACT
+
+https://drive.google.com/file/d/1RCj-uQCcrnOIUhnPOSzv2Kzm6A3YHLxe/view?usp=sharing
