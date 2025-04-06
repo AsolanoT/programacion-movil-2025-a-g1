@@ -16,12 +16,12 @@
 
 ### 01. Aspectos básicos del desarrollo web
 
-![Introducción al diseño de UX](01_Introdución_al_diseño_de_UX.png)
+![Aspectos básicos del desarrollo web](01_Aspectos_básicos_desarrollo_web.png)
 Este módulo introduce los conceptos esenciales para crear sitios web, explicando cómo funcionan los ordenadores (entrada, proceso, salida y almacenamiento), la diferencia entre hardware (componentes físicos) y software (programas), y los roles del desarrollo front-end (interfaz de usuario con HTML, CSS y JavaScript) y back-end (lógica del servidor con Python, Java o Node.js). También cubre cómo Internet y la World Wide Web (WWW) facilitan la comunicación global, el uso de APIs para conectar sistemas, y las etapas clave del desarrollo web (planificación, codificación, pruebas y despliegue), destacando la importancia de la nube para alojar aplicaciones escalables. En resumen, ofrece una base sólida para entender cómo se construye y funciona la web moderna.
 
 ### 02. Desarrollo de sitios para la web
 
-![Desarrollo de la investigación de UX](02_Desarrollo_de_la_investigación_de_UX.png)
+![Desarrollo de sitios para la web](02_Desarrollo_sitios_web.png)
 En este módulo, los estudiantes exploran las técnicas y herramientas utilizadas para realizar investigaciones de UX. Esto incluye la recopilación y análisis de datos de usuarios, la creación de personas y la identificación de necesidades y comportamientos del usuario.
 
 ### 03. Creación de un diseño basado en historias
