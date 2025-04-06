@@ -16,23 +16,23 @@
 
 ### 01. Aspectos básicos del desarrollo web
 
-![Aspectos básicos del desarrollo web](01_Aspectos_básicos_desarrollo_web.png)
+![Aspectos básicos del desarrollo web](![Aspectos básicos del desarrollo web](recursos_adicionales_modulos/01_Aspectos_básicos_desarrollo_web.png))
 Este módulo introduce los conceptos esenciales para crear sitios web, explicando cómo funcionan los ordenadores (entrada, proceso, salida y almacenamiento), la diferencia entre hardware (componentes físicos) y software (programas), y los roles del desarrollo front-end (interfaz de usuario con HTML, CSS y JavaScript) y back-end (lógica del servidor con Python, Java o Node.js). También cubre cómo Internet y la World Wide Web (WWW) facilitan la comunicación global, el uso de APIs para conectar sistemas, y las etapas clave del desarrollo web (planificación, codificación, pruebas y despliegue), destacando la importancia de la nube para alojar aplicaciones escalables. En resumen, ofrece una base sólida para entender cómo se construye y funciona la web moderna.
 
 ### 02. Desarrollo de sitios para la web
 
-![Desarrollo de sitios para la web](02_Desarrollo_sitios_web.png)
-En este módulo, los estudiantes exploran las técnicas y herramientas utilizadas para realizar investigaciones de UX. Esto incluye la recopilación y análisis de datos de usuarios, la creación de personas y la identificación de necesidades y comportamientos del usuario.
+![Desarrollo de sitios para la web](recursos_adicionales_modulos/02_Desarrollo_sitios_web.png)
+Este módulo introduce los fundamentos para crear páginas web funcionales y atractivas, combinando HTML (estructura), CSS (estilo) y JavaScript (interactividad). Aprenderás a diseñar layouts con etiquetas semánticas, aplicar estilos mediante selectores (clases, IDs) y añadir dinamismo con eventos básicos, siguiendo buenas prácticas de desarrollo web y metodologías ágiles para proyectos escalables. También cubre la diferencia entre arquitecturas (monolitos vs. microservicios) y cómo elegir herramientas según el contexto del proyecto.
 
-### 03. Creación de un diseño basado en historias
+### 03. Introducción a HTML y CSS
 
-![Creación de un diseño basado en historias](03_Creación_de_un_diseño_basado_en_historias.png)
-Este módulo se centra en la creación de diseños que cuentan una historia. Los participantes aprenderán a utilizar narrativas para guiar el diseño de interfaces, asegurando que las soluciones sean intuitivas y atractivas para los usuarios.
+![Introducción a HTML y CSS](recursos_adicionales_modulos/03_Introduccion_HTML_CSS.png)
+Este módulo se enfoca en construir sitios web funcionales y atractivos combinando tres tecnologías clave: HTML (para estructura y contenido), CSS (para diseño y estilos visuales) y JavaScript (para interactividad y dinamismo). Aprenderás desde conceptos básicos como etiquetas semánticas, selectores CSS y eventos JS, hasta buenas prácticas de organización de código, herencia de estilos y uso de herramientas como IDEs. También cubre la importancia de metodologías ágiles y arquitecturas escalables (como monolitos o microservicios) para proyectos colaborativos.
 
-### 04. Creación de esquemas y prototipos
+### 04. Creación de sitios web dinámicos con JavaScript
 
-![Creación de esquemas y prototipos](04_Creación_de_esquemas_y_prototipos.png)
-Aquí, los estudiantes aprenderán a crear esquemas y prototipos que representen las ideas de diseño. Este módulo cubre desde bocetos en papel hasta prototipos digitales interactivos, permitiendo a los participantes visualizar y probar sus diseños antes de la implementación.
+![Creación de sitios web dinámicos con JavaScript](recursos_adicionales_modulos/04_Creación_sitios_web_dinámicos_JavaScript.png)
+Aquí, los estu
 
 ### 05. Pruebas de facilidad de uso y obtención de comentarios
 
