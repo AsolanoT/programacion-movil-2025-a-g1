@@ -36,14 +36,15 @@ Aquí, los estu
 
 ### 05. Pruebas de facilidad de uso y obtención de comentarios
 
-![Pruebas de facilidad de uso y obtención de comentarios](05_Pruebas_de_facilidad_de_uso_y_obtención_de_comentarios.png)
-Este módulo enseña cómo realizar pruebas de usabilidad para evaluar la efectividad de los diseños. Los participantes aprenderán a recopilar y analizar comentarios de los usuarios, utilizando esta información para iterar y mejorar los diseños.
+![Pruebas de facilidad de uso y obtención de comentarios](05_.png)
+Este m
 
 ### 06. Trabajar en colaboración con equipos en proyectos de diseño de UX
 
-![Trabajar en colaboración con equipos en proyectos de diseño de UX](06_Trabajar_en_colaboración_con_equipos_en_proyectosde_diseño_UX.png)
-Este módulo se enfoca en las habilidades de colaboración necesarias para trabajar en equipos multidisciplinarios de diseño de UX. Los estudiantes aprenderán a comunicarse efectivamente, compartir ideas y trabajar juntos para lograr objetivos comunes.
+![Trabajar en colaboración con equipos en proyectos de diseño de UX](06_.png)
+Este m
 
-### 07. Su futuro en el diseño de UX: el panorama laboral
+### 07. Su futuro en el desarrollo web: el panorama laboral
 
-![Su futuro en el diseño de UX: el panorama laboral](07_Su_futuro_en_el_diseño_de_UX.png)
+![Su futuro en el desarrollo web: el panorama laboral](recursos_adicionales_modulos/07_futuro_desarrollo_web.png)
+El módulo explora las oportunidades profesionales en el campo del desarrollo web, destacando roles clave (front-end, back-end, full-stack), habilidades técnicas (HTML, CSS, JavaScript, frameworks) y competencias blandas (comunicación, trabajo en equipo) demandadas por la industria. También analiza tendencias del mercado, como la especialización en tecnologías específicas y la adaptabilidad en un sector en constante evolución.
