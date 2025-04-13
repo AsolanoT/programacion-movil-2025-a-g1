@@ -32,7 +32,7 @@ Este módulo se enfoca en construir sitios web funcionales y atractivos combinan
 ### 04. Creación de sitios web dinámicos con JavaScript
 
 ![Creación de sitios web dinámicos con JavaScript](recursos_adicionales_modulos/04_Creación_sitios_web_dinámicos_JavaScript.png)
-Aquí, los estu
+El módulo "Creación de sitios web con JavaScript" enseña a desarrollar aplicaciones web dinámicas integrando front-end (HTML, eventos, DOM) y back-end (Node.js, bases de datos SQL con operaciones CRUD). Cubre fundamentos clave como sintaxis de JavaScript (variables, objetos, funciones), interacción con páginas web, manejo de datos (desde concatenar strings hasta consultas SQL con WHERE), y buenas prácticas como modularización con archivos externos. El objetivo es que domines el flujo completo: desde la interfaz de usuario hasta la lógica del servidor y la gestión de datos, usando JavaScript como tecnología central.
 
 ### 05. Pruebas de facilidad de uso y obtención de comentarios
 
