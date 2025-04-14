@@ -1,16 +1,16 @@
-# Fundamentos del diseño de experiencias de usuario (¡Obtenga una credencial!)
+# Fundamentos del desarrollo web
 
 ## Plan de formación
 
-![Plan de formación](Plan_de_formación.PNG)
+![Plan de formación](recursos_adicionales_modulos/Plan_de_formación.PNG)
 
 ## Cursos
 
-![Cursos](cursos.png)
+![Cursos](recursos_adicionales_modulos/cursos.png)
 
 ## Certificado
 
-![Certificado](certificado.png)
+![Certificado](recursos_adicionales_modulos/certificado.jpg)
 
 ## Módulos
 
