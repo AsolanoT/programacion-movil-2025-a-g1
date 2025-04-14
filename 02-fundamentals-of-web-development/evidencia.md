@@ -16,7 +16,7 @@
 
 ### 01. Aspectos básicos del desarrollo web
 
-![Aspectos básicos del desarrollo web](![Aspectos básicos del desarrollo web](recursos_adicionales_modulos/01_Aspectos_básicos_desarrollo_web.png))
+![Aspectos básicos del desarrollo web](recursos_adicionales_modulos/01_Aspectos_básicos_desarrollo_web.png))
 Este módulo introduce los conceptos esenciales para crear sitios web, explicando cómo funcionan los ordenadores (entrada, proceso, salida y almacenamiento), la diferencia entre hardware (componentes físicos) y software (programas), y los roles del desarrollo front-end (interfaz de usuario con HTML, CSS y JavaScript) y back-end (lógica del servidor con Python, Java o Node.js). También cubre cómo Internet y la World Wide Web (WWW) facilitan la comunicación global, el uso de APIs para conectar sistemas, y las etapas clave del desarrollo web (planificación, codificación, pruebas y despliegue), destacando la importancia de la nube para alojar aplicaciones escalables. En resumen, ofrece una base sólida para entender cómo se construye y funciona la web moderna.
 
 ### 02. Desarrollo de sitios para la web
@@ -39,10 +39,10 @@ El módulo enseña a desarrollar aplicaciones web dinámicas integrando front-en
 ![Prueba y despliegue de sitios web](recursos_adicionales_modulos/05_Prueba_despliegue_sitios_web.png)
 El módulo enfoca los procesos clave para garantizar que un sitio web funcione correctamente antes y después de su lanzamiento. Cubre pruebas de calidad (usabilidad, rendimiento, compatibilidad y seguridad) para identificar errores, así como estrategias de despliegue continuo (CI/CD) que automatizan la publicación de actualizaciones de manera segura y eficiente. También aborda el uso de herramientas como sistemas de control de versiones (Git), entornos de staging y plataformas en la nube para gestionar el lanzamiento, asegurando que el sitio sea estable, escalable y accesible para los usuarios en todos los dispositivos. En esencia, este módulo enseña a entregar productos web robustos y actualizados con agilidad. 🚀
 
-### 06. Trabajar en colaboración con
+### 06. Desarrollar una página web de lista de tareas interactive
 
-![Trabajar en colabor uipos en pr oyectos de diseño de UX](06_.png)
-Este m
+![Desarrollar una página web de lista de tareas interactive](recursos_adicionales_modulos/06_Desarrollar_pagina_web_lista_tareas.png)
+El guía la creación de una aplicación web funcional usando tecnologías clave: HTML para la estructura básica (formulario y lista), CSS para el diseño responsive (adaptable a móviles y desktop con estilos alineados a la marca) y JavaScript para implementar la lógica interactiva (añadir tareas con botón o tecla Intro, marcarlas como completadas y validar entradas). Se enfoca en seguir especificaciones de diseño (wireframes) y requisitos funcionales, mientras se aplican buenas prácticas como modularización del código, eventos DOM y pruebas de usabilidad. El proyecto replica un escenario real de desarrollo, integrando trabajo en equipo con roles de diseñador y gestor de producto.
 
 ### 07. Su futuro en el desarrollo web: el panorama laboral
 
