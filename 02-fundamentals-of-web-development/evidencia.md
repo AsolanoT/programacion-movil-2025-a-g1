@@ -32,16 +32,16 @@ Este módulo se enfoca en construir sitios web funcionales y atractivos combinan
 ### 04. Creación de sitios web dinámicos con JavaScript
 
 ![Creación de sitios web dinámicos con JavaScript](recursos_adicionales_modulos/04_Creación_sitios_web_dinámicos_JavaScript.png)
-El módulo "Creación de sitios web con JavaScript" enseña a desarrollar aplicaciones web dinámicas integrando front-end (HTML, eventos, DOM) y back-end (Node.js, bases de datos SQL con operaciones CRUD). Cubre fundamentos clave como sintaxis de JavaScript (variables, objetos, funciones), interacción con páginas web, manejo de datos (desde concatenar strings hasta consultas SQL con WHERE), y buenas prácticas como modularización con archivos externos. El objetivo es que domines el flujo completo: desde la interfaz de usuario hasta la lógica del servidor y la gestión de datos, usando JavaScript como tecnología central.
+El módulo enseña a desarrollar aplicaciones web dinámicas integrando front-end (HTML, eventos, DOM) y back-end (Node.js, bases de datos SQL con operaciones CRUD). Cubre fundamentos clave como sintaxis de JavaScript (variables, objetos, funciones), interacción con páginas web, manejo de datos (desde concatenar strings hasta consultas SQL con WHERE), y buenas prácticas como modularización con archivos externos. El objetivo es que domines el flujo completo: desde la interfaz de usuario hasta la lógica del servidor y la gestión de datos, usando JavaScript como tecnología central.
 
-### 05. Pruebas de facilidad de uso y obtención de comentarios
+### 05. Prueba y despliegue de sitios web
 
-![Pruebas de facilidad de uso y obtención de comentarios](05_.png)
-Este m
+![Prueba y despliegue de sitios web](recursos_adicionales_modulos/05_Prueba_despliegue_sitios_web.png)
+El módulo enfoca los procesos clave para garantizar que un sitio web funcione correctamente antes y después de su lanzamiento. Cubre pruebas de calidad (usabilidad, rendimiento, compatibilidad y seguridad) para identificar errores, así como estrategias de despliegue continuo (CI/CD) que automatizan la publicación de actualizaciones de manera segura y eficiente. También aborda el uso de herramientas como sistemas de control de versiones (Git), entornos de staging y plataformas en la nube para gestionar el lanzamiento, asegurando que el sitio sea estable, escalable y accesible para los usuarios en todos los dispositivos. En esencia, este módulo enseña a entregar productos web robustos y actualizados con agilidad. 🚀
 
-### 06. Trabajar en colaboración con equipos en proyectos de diseño de UX
+### 06. Trabajar en colaboración con
 
-![Trabajar en colaboración con equipos en proyectos de diseño de UX](06_.png)
+![Trabajar en colabor uipos en pr oyectos de diseño de UX](06_.png)
 Este m
 
 ### 07. Su futuro en el desarrollo web: el panorama laboral
