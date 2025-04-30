@@ -1,0 +1,146 @@
+.home-page {
+  --ion-background-color: #f5f5f5;
+  padding-bottom: 20px;
+}
+
+.header-section {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background-color: #666666;
+  color: white;
+}
+
+.header-section h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.header-section p {
+  font-size: 1rem;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.invoice-card {
+  margin: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-summary {
+  background-color: white;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-summary h3 {
+  color: #34405e;
+  margin-top: 0;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.invoice-summary p {
+  margin: 8px 0;
+  color: #333;
+}
+
+.product-list-container {
+  margin: 16px;
+}
+
+.cart-summary {
+  background-color: white;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-summary h3 {
+  color: #34405e;
+  margin-top: 0;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.cart-items {
+  margin: 12px 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.cart-total {
+  text-align: right;
+  font-size: 1.1rem;
+  padding: 8px 0;
+  border-top: 1px solid #eee;
+  margin-top: 8px;
+}
+
+.generate-invoice-btn {
+  --border-radius: 8px;
+  margin-top: 16px;
+  font-weight: 600;
+}
+
+/* Modo oscuro */
+@media (prefers-color-scheme: dark) {
+  .home-page {
+    --ion-background-color: #121212;
+  }
+
+  .header-section {
+    background-color: #1e1e1e;
+  }
+
+  .invoice-card {
+    background-color: #2d2d2d;
+  }
+
+  .invoice-summary,
+  .cart-summary {
+    background-color: #2d2d2d;
+  }
+
+  .invoice-summary h3,
+  .cart-summary h3 {
+    color: #ecf0f1;
+    border-bottom-color: #444;
+  }
+
+  .invoice-summary p,
+  .cart-item {
+    color: #bdc3c7;
+    border-bottom-color: #444;
+  }
+
+  .cart-total {
+    color: #ecf0f1;
+    border-top-color: #444;
+  }
+  /* Agrega estos estilos al archivo existente */
+
+.payment-section {
+  margin: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Modo oscuro para payment-section */
+@media (prefers-color-scheme: dark) {
+  .payment-section {
+    background-color: #2d2d2d;
+  }
+}
+}

@@ -1,0 +1,31 @@
+.custom-button {
+    --background: #3498db;
+    --background-activated: #2980b9;
+    --background-focused: #2980b9;
+    --background-hover: #2980b9;
+    --border-radius: 8px;
+    height: 48px;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-transform: none;
+  }
+  
+  .custom-button:active {
+    transform: scale(0.98);
+  }
+  
+  .custom-button[color="secondary"] {
+    --background: #6c757d;
+    --background-activated: #5a6268;
+  }
+  
+  .custom-button[color="danger"] {
+    --background: #e74c3c;
+    --background-activated: #c0392b;
+  }
+  
+  .custom-button[color="success"] {
+    --background: #2ecc71;
+    --background-activated: #27ae60;
+  }

@@ -1,0 +1,36 @@
+.invoice-header-container {
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .invoice-title {
+    color: #34405e;
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .invoice-item {
+    --border-radius: 8px;
+    margin-bottom: 12px;
+    --background: #f8f9fa;
+  }
+  
+  /* Modo oscuro */
+  @media (prefers-color-scheme: dark) {
+    .invoice-header-container {
+      background-color: #2d2d2d;
+    }
+  
+    .invoice-title {
+      color: #ecf0f1;
+    }
+  
+    .invoice-item {
+      --background: #3d3d3d;
+    }
+  }

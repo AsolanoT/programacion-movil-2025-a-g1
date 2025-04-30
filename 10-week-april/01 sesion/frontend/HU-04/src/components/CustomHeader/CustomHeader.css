@@ -1,0 +1,44 @@
+.custom-header {
+    ion-toolbar {
+      --background: #666666;
+      --color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 16px;
+    }
+    
+    ion-buttons {
+      min-width: 50px;
+      
+      ion-icon {
+        font-size: 30px;
+      }
+    }
+    
+    .header-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: auto;
+      height: 10%;
+      max-width: 60%;
+      
+      .header-icon {
+        font-size: 30px;
+        margin-right: 8px;
+        color: white;
+      }
+      
+      ion-title {
+        padding: 0;
+        font-size: 1.1rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
